@@ -1,0 +1,63 @@
+*{ 
+    text-align: center;
+    background-color: bisque;
+}
+
+h1{
+    font-size: 4rem;
+    color: blueviolet;
+    font-family: Algerian;
+}
+
+p{
+    font-size: 2rem;
+    color: beige;
+    background-color: black;
+    font-family: Curlz MT;
+}
+
+input{
+    margin: 1rem;
+}
+
+#cantidadL{
+    color: rgb(0, 5, 12);
+    text-align: center;
+    font-size: 130%;
+    background-color: rgb(229, 156, 245);
+    border-radius: 10px;
+    margin: 10px;
+    width: 400px;
+}
+#cantidadL::placeholder{
+    color: black;
+    font-family: Comic Sans MS; 
+}
+button{
+    color: black;
+    font-size: 130%;
+    border-radius: 20px;
+    margin: 1rem;
+    border-color: black;
+}
+#dibujar{
+    background-color: rgb(163, 163, 241);
+}
+#borrar{
+    background-color: rgb(249, 179, 179);
+}
+#dibujar:hover{
+    background-color: lightgreen;
+    font-family: Comic Sans MS;
+}
+#borrar:hover{
+    background-color:lightblue;
+    font-family: Comic Sans MS;
+}
+#tablero{
+    border: black;
+    border-width: 10px;
+    border-style: solid;
+    background-color: rgb(249, 246, 252);
+
+}
